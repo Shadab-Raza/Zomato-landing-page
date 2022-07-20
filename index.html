@@ -1,19 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Zomato-Landing-Page</title>
-    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/9de9844bef.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Zomato Clone</title>
 </head>
 
 <body>
+    <section class="hero__section">
+        <header>
+            <nav class="navbar">
+                <a class="left_icon" href="#"><i class="fa-solid fa-mobile-screen-button"></i> Get the App</a>
+                <div class="navbar__menu_container">
+                    <a href="#" class="link">Investor Relations</a>
+                    <a href="#" class="link">Add Resturant</a>
+                    <a href="#" class="link">Log In</a>
+                    <a href="#" class="link">Sign Up</a>
+                    <a href="#" class="user__icon">
+                        <i class="fa-solid fa-user"></i>
+                    </a>
+                </div>
+            </nav>
+        </header>
 
+        <!-- hero-section-logo -->
+        <section class="hero__section__logo">
+            <div class="logo">
+                <img src="./images/heroSectionLogo.webp" />
+            </div>
+        </section>
+
+        <!-- Title Area -->
+        <div class="title">
+            <span>Discover the best food & drinks in <span class="state">Jharkhand</span></span>
+        </div>
+
+        <!-- Search-Bar Area-->
+        <section class="searchbar__wrapper">
+
+            <div class="location-input-wrapper">
+                <button class="location-icon">
+                    <i class="fa-solid fa-location-dot" ></i>
+                </button>
+
+                <input class="location__search" type="text" placeholder="Jharkhand">
+                
+                <button class="dropdown-icon">
+                    <i class="fa-solid fa-caret-down">
+                         <span class="line">|</span>
+                    </i>                   
+                </button>
+            </div>
+
+
+            <div class="resturant-input-wrapper">
+                <button class="search-logo">
+                    <i class="fa-solid fa-magnifying-glass"></i>   
+                </button>
+
+                <input class="resturent__searchbar" type="text" placeholder="Search for resturent, cuisine or a dish" />
+            </div>
+            
+        </section>
+    </section>
 </body>
 
 </html>

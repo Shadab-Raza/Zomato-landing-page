@@ -1,6 +1,236 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif; 
+}
+
+/* Nav-bar */
+.hero__section{
+    background-image: url(./images/heroSectionBackground.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    min-height: 60vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 220px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.navbar .left_icon{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar__menu_container{
+    display: flex;
+    gap: 30px;
+}
+
+.user__icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+
+
+
+
+/* Hero-Section-Logo */
+.hero__section__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.hero__section__logo .logo{
+    height: 70px;
+    width: 320px;
+}
+
+.hero__section__logo .logo img{
+    height: 100%;
+    width: 100%;
+}
+
+/* Title Area */
+.title{
+    text-align: center;
+    padding: 30px;
+    font-size: 38px;
+}
+
+.title .state{
+    font-weight: 500;
+}
+
+
+
+
+
+
+/* Responsive Search-bar */
+
+.searchbar__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-input-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-input-wrapper .location-icon{
+    background-color: white;
+    border: none;
+    outline: none;
+    height: 60px;
+    width: 38px;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    color: #ff8277;
+    font-size: 25px;
+    padding: 8px;
+    margin-right: -1px;
+}
+
+.location-input-wrapper .location__search{
+    width: 250px; 
+    height: 60px;
+    outline: none;
+    border: none;
+    padding-left: 5px;
+    font-size: 16px
+}
+
+.location-input-wrapper .dropdown-icon{
+    height: 60px;
+    width: 35px;
+    margin-right: -1px;
+    background-color: white;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.searchbar__wrapper .line{
+    color: rgb(184, 182, 182);
+    font-weight: 200;
+    margin-left: 5px;
+}
+
+.resturant-input-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resturant-input-wrapper .search-logo{
+    height: 60px;
+    width: 32px;
+    background-color: white;
+    border: none;
+    outline: none;
+}
+
+.resturant-input-wrapper .search-logo i{
+    font-size: 15px;
+    color: #666;
+    font-weight: 600;
+    margin-left: 13px;
+}
+
+.resturant-input-wrapper .resturent__searchbar{
+    height: 60px;
+    width: 600px;
+    padding-left: 15px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1150px) {
+    .navbar__menu_container .link{
+        display: none;
+    }
+
+    .user__icon{
+        display: flex;
+    }
+
+    .navbar{
+        padding: 16px;
+    }
+
+    .hero__section{
+        min-height: 80vh;
+    }
+
+    .searchbar__wrapper{
+        flex-direction: column;
+        width: 100%;
+    }
+
+        /* Location-Input-Wrapper */
+        
+    .location-input-wrapper .location__search{
+        width: 600px;
+    }
+    
+    .location-input-wrapper .dropdown-icon{
+        border-bottom-right-radius: 9px;
+        border-top-right-radius: 9px;
+        margin-left: -2px;
+    }
+
+    .location-input-wrapper .line{
+        display: none;
+    }
+
+
+        /* Resturant-input-wrapper */
+    
+    .resturant-input-wrapper .search-logo{
+        border-bottom-left-radius: 9px;
+        border-top-left-radius: 9px;
+        margin-right: -2px;
+    }
+
+    .resturant-input-wrapper .resturent__searchbar{
+        width: 640px;
+    }
+    
+    .location-input-wrapper,
+    .resturant-input-wrapper{
+        padding: 15px;
+    }
 }
