@@ -182,8 +182,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 9%;
-    margin-right: 9%;
+    margin-left: 11%;
+    margin-right: 11%;
     margin-top: 1.5%;
 }
 
@@ -191,7 +191,7 @@
     border: 1px solid #ccc;
     border-radius: 12px;
     width: 32%;
-    height: 250px;
+    height: 230px;
     margin: 12px;
     cursor: pointer;
     transition: all  0.55s;
@@ -241,8 +241,8 @@
 .collection__wrapper{
     margin-bottom: 30px;
     margin-top: 60px;
-    margin-left: 9%;
-    margin-right: 9%;
+    margin-left: 11%;
+    margin-right: 11%;
 }
 
 .col-heading{
@@ -292,7 +292,7 @@
 
 .collection__card__container .card{
     height: 330px;
-    min-width: 280px;
+    min-width: 250px;
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -350,6 +350,205 @@
 
 
 
+/* Popular Localities - Section */
+
+.localities__wrapper{
+    margin-bottom: 30px;
+    margin-top: 8%;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+.headline{
+    margin: 0px;
+    color: rgb(54, 54, 54);
+    font-size: 33px;
+    line-height: 1.2;
+    font-weight: 350;
+}
+
+.headline b{
+    font-weight: 500;
+}
+
+.localities__container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.localities__container .localities__name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 32%;
+    min-height: 80px;
+    border: 1px solid rgb(241, 235, 235);
+    border-radius: 8px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 3px rgb(225, 222, 222);;
+    cursor: pointer;
+}
+
+.localities__container .localities__name .localities{
+    margin-left: 15px;
+    line-height: 1.8;
+}
+
+.localities__container .localities__name .localities .name{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.localities__container .localities .place_count{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.localities__container .arrow__symbol{
+    margin-right: 18px;
+    font-size: 18px;
+}
+
+.localities__name:hover{
+    box-shadow: 1px 2px 5px #ccc
+}
+
+.localities__container .see-more_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 32%;
+    min-height: 80px;
+    border: 1px solid rgb(241, 235, 235);
+    box-shadow: 1px 1px 3px rgb(225, 222, 222);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.localities__container .see-more_container .see-more{
+    font-size: 17px;
+}
+
+.localities__container .see-more_container .arrow__symbol{
+    margin-left: 15px;
+}
+
+
+/* Get App - Section */
+
+.get__the__app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 251, 247);
+    width: 100%;
+    padding: 48px 50px;
+}
+
+.get__the__app .semiContainer{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.get__the__app .semiContainer .left{
+    flex: 2;
+}
+
+.get__the__app .semiContainer .left img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.get__the__app .semiContainer .right{
+    flex: 3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.right h1{
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.right p{
+    font-size: 14px;
+}
+
+.semiContainer .right .radio__button__container{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.semiContainer .right .radio__button__container div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.semiContainer .right .radio__button__container div input{
+    height: 15px;
+    width: 15px;
+    accent-color: rgb(239, 79, 95);
+}
+
+.semiContainer .right .input__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.input__container button,
+.input__container input{
+    padding: 10px 12px;
+}
+
+.input__container input{
+    border: 1.5px solid gray;
+    outline: none;
+    border-radius: 5px;
+    flex: auto;
+}
+
+.input__container button{
+    border: none;
+    outline: none;
+    background-color: rgb(239, 79, 95);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.right .download__app__container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.download__app__container h5{
+    font-weight: 400;
+    color: gray;
+}
+
+.download__app__container div{
+    display: flex;
+    gap: 16px;
+}
+
+.download__app__container div img{
+    width: 25%;
+}
 
 
 
@@ -447,5 +646,54 @@
     .item__wrapper{
         width: 100%;
         height: 100%;
+    }
+
+    /* Popular location - section */
+    .localities__name{
+        width: 100%;
+    }
+
+    .see-more_container{
+        width: 98%;
+    }
+
+}
+
+
+
+/* Get The App - Section */
+
+@media only screen and (max-width: 1300px){
+    .get__the__app .semiContainer .left{
+        flex: 1;
+    }
+
+    .get__the__app .semiContainer .right{
+        flex: 1;
+    }
+
+    .get__the__app .semiContainer{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .get__the__app{
+        padding: 2rem;
+    }
+
+    .get__the__app .semiContainer{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .get__the__app{
+        padding: 3rem 0;
+    }
+
+    .get__the__app .semiContainer{
+        width: 80%;
+        flex-direction: column;
     }
 }
