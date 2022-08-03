@@ -190,11 +190,11 @@
 .item__wrapper{
     border: 1px solid #ccc;
     border-radius: 12px;
-    width: 32%;
-    height: 230px;
-    margin: 12px;
+    width: 33%;
+    height: 250px;
+    margin: 10px;
     cursor: pointer;
-    transition: all  0.55s;
+    transition: all  0.5s;
 }
 
 .item-image{
@@ -272,7 +272,6 @@
     cursor: pointer;
     border: 0.1rem solid transparent;
     border-radius: 0.4rem;
-    line-height: 1;
     font-weight: 300;
     color: rgb(255, 126, 139);
 }
@@ -288,11 +287,12 @@
     flex-wrap: wrap;
     gap: 25px;
     margin-top: 24px;
+    width: 100%;
 }
 
 .collection__card__container .card{
-    height: 330px;
-    min-width: 250px;
+    height: 350px;
+    min-width: 23.3%;
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -355,8 +355,8 @@
 .localities__wrapper{
     margin-bottom: 30px;
     margin-top: 8%;
-    margin-left: 11%;
-    margin-right: 11%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .headline{
@@ -438,6 +438,9 @@
 }
 
 
+
+
+
 /* Get App - Section */
 
 .get__the__app{
@@ -447,6 +450,7 @@
     background-color: rgb(255, 251, 247);
     width: 100%;
     padding: 48px 50px;
+    margin-top: 6%;
 }
 
 .get__the__app .semiContainer{
@@ -549,6 +553,190 @@
 .download__app__container div img{
     width: 25%;
 }
+
+
+
+
+/* Explore Option - Section */
+
+.explore__option__container{
+    background: rgb(252, 252, 252);
+    width: 100%;
+}
+
+.explore__option__container .text__container{
+    position: relative;
+    margin-left: 9.3%;
+    margin-right: 11%;
+    width: 79%;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.text__heading{
+    margin: 0px 0px 2rem;
+    color: rgb(54, 54, 54);
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 400;
+}
+
+.options__div__wrapper{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    box-shadow: none;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin-bottom: 20px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.options__div__wrapper .options__div{
+    margin-left: 22px;
+    margin-right: 22px;
+    
+}
+
+.options__div__wrapper .text__inside__div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Footer Section - Section */
+
+.footer{
+    background-color: rgb(248, 248, 248);
+    width: 100%;
+    position: relative;
+}
+
+.footer_section1{
+    position: absolute;
+    left: 150px;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 71.8%;
+    width: 80%;
+    margin: auto;
+}
+
+.footer_section1 img{
+    width: 120px;
+    height: auto;
+}
+
+.section1_buttonContainer{
+    display: flex;
+    gap: 16px;
+}
+
+.section1_buttonContainer button{
+    padding: 5px;
+    width: 90px;
+    border: 1px solid gray;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navigation_container{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    padding: 48px 0;
+}
+
+.link__container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.link__container h5{
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 5px;
+    letter-spacing: 0.8px;
+}
+
+.footer__link{
+    text-decoration: none;
+    color: #666;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.footer__link:hover{
+    color: black;
+}
+
+.social_links_container{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.social_links_container button{
+    background-color: black;
+    border: none;
+    outline: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social_links_container button i{
+    color: white;
+    font-size: 13px;
+}
+
+.footer__store__logo{
+    width: 65%;
+    margin-top: -13px;
+}
+
+.logo-2{
+    margin-top: 8px;
+}
+
+.desclamer{
+    width: 81%;
+    margin: auto;
+    padding: 20px 0;
+    font-size: 12px;
+    color: gray;
+    border-top: 1px solid gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -695,5 +883,45 @@
     .get__the__app .semiContainer{
         width: 80%;
         flex-direction: column;
+    }
+
+
+
+    /* Explore Option section */
+    .options__div__wrapper{
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+
+    .text__inside__div{
+        justify-content: space-around;
+    }
+}
+
+
+    /* Footer Section  */
+
+@media only screen and (max-width: 900px){
+    .navigation_container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .navigation_container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .footer_section1{
+        flex-direction: column;
+        gap: 16px;
+        align-items: flex-start;
+    }
+
+    .navigation_container{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
