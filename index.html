@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9de9844bef.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Zomato Clone</title>
+</head>
+
+
+<body>
+
+    <!------------- Hero - Section Start------------->
+    <section class="hero__section">
+        <header>
+            <nav class="navbar">
+                <a class="left_icon" href="#"><i class="fa-solid fa-mobile-screen-button"></i> Get the App</a>
+                <div class="navbar__menu_container">
+                    <a href="#" class="link">Investor Relations</a>
+                    <a href="#" class="link">Add Resturant</a>
+                    <a href="#" class="link">Log In</a>
+                    <a href="#" class="link">Sign Up</a>
+                    <a href="#" class="user__icon">
+                        <i class="fa-solid fa-user"></i>
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- hero-section-logo -->
+        <section class="hero__section__logo">
+            <div class="logo">
+                <img src="./images/heroSectionLogo.webp" />
+            </div>
+        </section>
+
+        <!-- Title Area -->
+        <div class="title">
+            <span>Discover the best food & drinks in <span class="state">Jharkhand</span></span>
+        </div>
+
+        <!-- Search-Bar Area-->
+        <section class="searchbar__wrapper">
+
+            <div class="location-input-wrapper">
+                <button class="location-icon">
+                    <i class="fa-solid fa-location-dot" ></i>
+                </button>
+
+                <input class="location__search" type="text" placeholder="Jharkhand">
+                
+                <button class="dropdown-icon">
+                    <i class="fa-solid fa-caret-down">
+                         <span class="line">|</span>
+                    </i>                   
+                </button>
+            </div>
+
+
+            <div class="resturant-input-wrapper">
+                <button class="search-logo">
+                    <i class="fa-solid fa-magnifying-glass"></i>   
+                </button>
+
+                <input class="resturent__searchbar" type="text" placeholder="Search for resturent, cuisine or a dish" />
+            </div>
+            
+        </section>
+    </section>
+    <!------------- Hero - Section End------------->
+
+
+
+    <!------------- Item - Section Start  --------->
+    <section class="items__container">
+        <div class="item__wrapper">
+            <div class="item-image">
+                <img src="./images/item-1.png" alt="item-1">
+            </div>
+
+            <div class="text-container">
+                <p class="heading">Order Online</p>
+                <p class="message">Stay home and order to your doorstep</p>
+            </div>
+        </div>
+
+
+        <div class="item__wrapper">
+            <div class="item-image">
+                <img src="./images/item-2.png" alt="item-2">
+            </div>
+
+            <div class="text-container">
+                <p class="heading">Dining</p>
+                <p class="message">View The city's favourite dining venues</p>
+            </div>
+        </div>
+
+
+        <div class="item__wrapper">
+            <div class="item-image">
+                <img src="./images/item-3.png" alt="item-3">
+            </div>
+
+            <div class="text-container">
+                <p class="heading">Parties & Club</p>
+                <p class="message">Explore the city's top nightlife outlets</p>
+            </div>
+        </div>
+    </section>
+    <!------------- Item - Section End  --------->
+
+
+
+    <!---------- Collection - Section Starts ---------->
+    <section class="collection__wrapper">
+
+        <h2 class="col-heading">Collections</h2>
+
+        <div class="text-section">
+            <div class="explore__message">
+                <p>Explore curated lists of top resturants, cafes, pubs, and bars in Jharkhand, based on trend</p>
+            </div>
+                   
+            <div class="collection__option">
+                All collections in Jharkhand <i class="fa-solid fa-caret-right"></i>
+            </div>
+        </div>
+
+
+        <div class="collection__card__container">
+            <div class="card card1">
+                <div class="overlay"></div>
+                <div class="content">
+                    <h4>Live Cricket Screening</h4>
+                    <span>15 Places <i class="fa-solid fa-caret-right"></i></span>
+                </div>
+            </div>
+
+
+            <div class="card card2">
+                <div class="overlay"></div>
+                <div class="content">
+                    <h4>Ramadan Special</h4>
+                    <span>25 Places <i class="fa-solid fa-caret-right"></i></span>
+                </div>
+            </div>
+
+
+            <div class="card card3">
+                <div class="overlay"></div>
+                <div class="content">
+                    <h4>Trending This Week</h4>
+                    <span>20 Places <i class="fa-solid fa-caret-right"></i></span>
+                </div>
+            </div>
+
+
+            <div class="card card4">
+                <div class="overlay"></div>
+                <div class="content">
+                    <h4>Newly Opened</h4>
+                    <span>18 Places <i class="fa-solid fa-caret-right"></i></span>
+                </div>
+            </div>
+            
+        </div>
+        
+    </section>
+    <!---------- Collection - Section Ends---------->
+
+
+
+
+    <!---------- Popular Localities - Section Starts  ------->
+    <section class="localities__wrapper">
+        <p class="headline">
+            Popular localities in and around <b>Jharkhand</b>
+        </p>
+
+        <div class="localities__container">
+            <div class="localities__name">
+                <div class="localities">
+                    <p class="name">Ranchi Road</p>
+                    <p class="place_count">200 places</p>
+                </div>
+                <div class="arrow__symbol">
+                    <i class="fa-light fa-greater-than"></i>
+                </div>
+            </div>
+
+
+
+            <div class="localities__name">
+                <div class="localities">
+                    <p class="name">Bokaro</p>
+                    <p class="place_count">170 places</p>
+                </div>
+                <div class="arrow__symbol">
+                    <i class="fa-light fa-greater-than"></i>
+                </div>
+            </div>
+
+
+
+            <div class="localities__name">
+                <div class="localities">
+                    <p class="name">Dhanbad</p>
+                    <p class="place_count">150 places</p>
+                </div>
+                <div class="arrow__symbol">
+                    <i class="fa-light fa-greater-than"></i>
+                </div>
+            </div>
+
+
+
+            <div class="localities__name">
+                <div class="localities">
+                    <p class="name">East Singhbhum</p>
+                    <p class="place_count">130 places</p>
+                </div>
+                <div class="arrow__symbol">
+                    <i class="fa-light fa-greater-than"></i>
+                </div>
+            </div>
+
+
+
+            <div class="localities__name">
+                <div class="localities">
+                    <p class="name">Hazaribag</p>
+                    <p class="place_count">182 places</p>
+                </div>
+                <div class="arrow__symbol">
+                    <i class="fa-light fa-greater-than"></i>
+                </div>
+            </div>
+
+
+
+            <div class="localities__name">
+                <div class="localities">
+                    <p class="name">Koderma</p>
+                    <p class="place_count">165 places</p>
+                </div>
+                <div class="arrow__symbol">
+                    <i class="fa-light fa-greater-than"></i>
+                </div>
+            </div>
+
+
+
+            <div class="localities__name">
+                <div class="localities">
+                    <p class="name">Dumka</p>
+                    <p class="place_count">115 places</p>
+                </div>
+                <div class="arrow__symbol">
+                    <i class="fa-light fa-greater-than"></i>
+                </div>
+            </div>
+
+
+
+            <div class="localities__name">
+                <div class="localities">
+                    <p class="name">West Singhbhum</p>
+                    <p class="place_count">90 places</p>
+                </div>
+                <div class="arrow__symbol">
+                    <i class="fa-light fa-greater-than"></i>
+                </div>
+            </div>
+
+
+
+            <div class="see-more_container">
+                <span class="see-more">see more</span>
+                <span class="arrow__symbol">
+                    <i class="fa-solid fa-angle-down"></i>
+                </span>
+            </div>
+        </div>
+    </section>
+    <!---------- Popular Localities - Section Ends  --------->
+
+
+
+    <!---------- Get The App - Section Starts  ---------->
+    <section class="container get__the__app">
+        <div class="semiContainer">
+            <div class="left">
+                <img src="./images/mobilebanner.png" alt="mobile-image">
+            </div>
+            <div class="right">
+                <h1>Get the Zomato App</h1>
+                <p>We will send you a link, open it on your phone to download the app</p>
+
+                <div class="radio__button__container">
+                    <div>
+                        <input type="radio" id="email" name="download_app" />
+                        <label for="email" style="font-size: 14px;">Email</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="phone" name="download_app" />
+                        <label for="phone" style="font-size: 14;">Phone</label>
+                    </div>
+                </div>
+
+                <div class="input__container">
+                    <input type="text" placeholder="Email" />
+                    <button>Share App Link</button>
+                </div>
+
+                <div class="download__app__container">
+                    <h5>Download App From</h5>
+                    <div>
+                        <img src="./images/googleplay.png" alt="googleplay" />
+                        <img src="./images/appleStore.png" alt="appleStore" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------------- Get The App - Section Ends  ----------------------->
+
+
+
+    <!-------- Explore Option near me - Section Starts --------->
+
+    <section class="explore__option__container">
+        <div class="text__container">
+            <div class="text__heading">
+                <p>Explore options near me</p>
+            </div>
+
+            <div class="options__div__wrapper">
+                <div class="options__div">
+                    <div class="text__inside__div">
+                        <div class="message">
+                            <p>Popular cuisines near me</p>
+                        </div>
+
+                        <div class="arrow">
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="options__div__wrapper">
+                <div class="options__div">
+                    <div class="text__inside__div">
+                        <div class="message">
+                            <p>Popular resturant types near me</p>
+                        </div>
+
+                        <div class="arrow">
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="options__div__wrapper">
+                <div class="options__div">
+                    <div class="text__inside__div">
+                        <div class="message">
+                            <p>Top Resturant Chains</p>
+                        </div>
+
+                        <div class="arrow">
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="options__div__wrapper">
+                <div class="options__div">
+                    <div class="text__inside__div">
+                        <div class="message">
+                            <p>Cities We Deliver To</p>
+                        </div>
+
+                        <div class="arrow">
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------- Explore Option near me - Section Ends --------->
+
+
+
+    <!-- Footer Section Starts -->
+
+    <footer class="footer">
+        <div class="footer_section1">
+            <img src="./images/logo.png" alt="zomato logo" />
+            
+            <div class="section1_buttonContainer">
+                <button>
+                    <img
+                    src="https://flagcdn.com/w40/in.png" alt="Indian-Flag" style="width: 17px;"/> India
+                </button>
+
+                <button>
+                    <i class="fa fa-globe" aria-hidden="true"></i> English
+                </button>
+            </div>
+        </div>
+
+        <div class="navigation_container">
+            <div class="link__container">
+                <h5>ABOUT ZOMATO</h5>
+                <a class="footer__link" href="#">Who we are</a>
+                <a class="footer__link" href="#">Blog</a>
+                <a class="footer__link" href="#">Work With Us</a>
+                <a class="footer__link" href="#">Investor Relations</a>
+                <a class="footer__link" href="#">Report Fraud</a>
+            </div>
+
+
+            <div class="link__container">
+                <h5>ZOMAVERSE</h5>
+                <a class="footer__link" href="#">Zomato</a>
+                <a class="footer__link" href="#">Feeding India</a>
+                <a class="footer__link" href="#">Hyperpure</a>
+                <a class="footer__link" href="#">Zomaland</a>
+            </div>
+
+
+            <div class="link__container">
+                <h5>FOR RESTAURANTS</h5>
+                <a class="footer__link" href="#">Partner With Us</a>
+                <a class="footer__link" href="#">Apps For You</a>
+                <br>
+
+                <h5>FOR ENTERPRISES</h5>
+                <a class="footer__link" href="#">Zomato For Work</a>
+            </div>
+
+
+            <div class="link__container">
+                <h5>LEARN MORE</h5>
+                <a class="footer__link" href="#">Privacy</a>
+                <a class="footer__link" href="#">Security</a>
+                <a class="footer__link" href="#">Terms</a>
+                <a class="footer__link" href="#">Sitmap</a>
+            </div>
+
+
+            <div class="link__container">
+                <h5>SOCIAL LINKS</h5>
+                <div class="social_links_container">
+                    <button>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </button>
+    
+                    <button>
+                        <i class="fa-brands fa-instagram"></i>
+                    </button>
+    
+                    <button>
+                        <i class="fa-brands fa-twitter"></i>
+                    </button>
+    
+                    <button>
+                        <i class="fa-brands fa-youtube"></i>
+                    </button>
+    
+                    <button>
+                        <i class="fa-brands fa-facebook"></i>
+                    </button>
+                </div>
+                <br />
+
+                <img src="./images/appleStore.png" alt="appleStore" class="footer__store__logo" />
+
+                <img src="./images/googlePlay.png" alt="playStore" class="footer__store__logo logo-2" />
+            </div>
+        </div>
+        <p class="desclamer">
+            By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2022 © Zomato™ Ltd. All rights reserved.
+        </p>
+    </footer>
+    
+    <!-- Footer Section Ends -->
+
+</body>
+
+</html>
