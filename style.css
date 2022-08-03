@@ -625,7 +625,7 @@
 .footer_section1{
     position: absolute;
     left: 150px;
-    top: 20px;
+    top: 10px;
     display: flex;
     align-items: center;
     gap: 71.8%;
@@ -710,7 +710,6 @@
 
 .footer__store__logo{
     width: 65%;
-    margin-top: -13px;
 }
 
 .logo-2{
